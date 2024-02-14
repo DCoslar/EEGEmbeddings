@@ -1,0 +1,19 @@
+[DATA]
+phase_it_len = 1200
+roi_it_len = 16
+subject_it_len = 16
+grasp_it_len = 4
+
+[CHANNELS]
+all = [8, 45, 9, 12, 13, 14, 51, 18, 52, 19, 53, 23, 56, 24, 57, 25]
+
+[eeg]
+train = 4
+val = 4
+test = 4
+
+[kin]
+train = 4
+val = 4
+test = 4
+
